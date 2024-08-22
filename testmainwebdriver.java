@@ -132,9 +132,8 @@ public class  testmainwebdriver{
           driver.get("https://try.vikunja.io/register");	
           testmainwebdriver1 register=new testmainwebdriver1(driver);
           //Verify the Negitive Scenarions first and check Application is giving proper error messages
-          register.negitiveScenarios(userdetails);
-          
-          String signupurl=register.createAccount(userdetails);
+          register.negitiveScenarios(userdetails);          
+          register.createAccount(userdetails);
           Thread.sleep(5000);
           WebElement username1=driver.findElement(By.xpath(" //span[@class='username']"));
           if(username1!=null && username1.getText().equalsIgnoreCase(userdetails.get("userName")))
