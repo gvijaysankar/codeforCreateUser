@@ -42,7 +42,7 @@ public testmainwebdriver1(WebDriver driver)
 	PageFactory.initElements(driver,this);
 }
 
-public String createAccount(Map<String,String> userdetails)
+public void createAccount(Map<String,String> userdetails)
 {
 	
 	try
@@ -68,9 +68,6 @@ public String createAccount(Map<String,String> userdetails)
 	catch (Exception e) {
         e.printStackTrace();
   }
-	
-	
-	return driver.getCurrentUrl();
 	
 }
 
@@ -190,93 +187,6 @@ public void negitiveScenarios(Map<String,String> userdetails) throws Interrupted
 	  driver.navigate().refresh();
 	  Thread.sleep(3000);
 }
-
-
-
-
-		
-		
-		
-		
-       
-		
-		
-		
-	
-	
-		
-		 
-		
-		
-		
-	
-		
-	  
-	 
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		
-	      
-	
-	  
-		
-		
-		
-		
-	
-	
-		
-		
-		
-		
-		
-		
-	    
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-	
-		 
-		 
-		 
-	
-		
-		
-		
-		
-			
-				
-		
-	
-		
-	
-	
-	
-	
 }
 
 
