@@ -111,7 +111,6 @@ public class  testmainwebdriver{
 		Map<String,String> userdetails = new HashMap<String,String>();
 		String password=generateRandomString(9);
 	    String email=generateRandomString(8)+"@gmail.com";
-	    String lastnamee=generateRandomString(8);
 	    userdetails.put("userName",userName);
 	    userdetails.put("emailID",email);
 	    userdetails.put("password",password);
@@ -122,8 +121,7 @@ public class  testmainwebdriver{
 	public void Test1() throws Exception
 	{
       //Provide the lenght
-	  String userName=generateRandomString(usrlenght);      
-      Map<String,String> gendraldetails = new HashMap<String,String>();
+	  String userName=generateRandomString(usrlenght);   
       int userlenghth=userName.length();
       try
       {
@@ -171,125 +169,6 @@ public class  testmainwebdriver{
 			LOGGER.info("*****************Completed ***************");
 		}
 	 
-      
-      
-      
-      
-      
-     
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	 
-	 
-	 
-	
-	 
-	 
-	 
-	 
-	
-
-	
-	
-	
-	
-	
-	
-	
-    
- 
-		
-
-		
-		
-		
-		
-       
-		
-		
-		
-	
-	
-		
-		 
-		
-		
-		
-	
-		
-	  
-	 
-		
-		
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		
-	      
-	
-	  
-		
-		
-		
-		
-	
-	
-		
-		
-		
-		
-		
-		
-	    
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-	
-		 
-		 
-		 
-	
-		
-		
-		
-		
-			
-				
-		
-	
-		
-	
-	
-	
-	
 }
 }
 
